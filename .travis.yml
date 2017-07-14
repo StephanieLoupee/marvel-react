@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: HBfI5yyp85WqiEpbOIrmBBf+fuptRgm+BEctutHIwBi9on0ie8+NcIhOzfzYGcrn3F3Jr/WZKq0cMKzKSzFajCnevDlRCYu5eWTTTHf00TW+KBSxbQ1gxBfwI5M0bkuLQkK67DBbZm1iK9sF9YY0vMmezrl3mcqCMU+09H0pX219+Cm9752DPzPJOo1SUjdm6SfPdSaPoX8ClN+32IxlNmyw5MgQpx+YLHvlGaWP5/yR0+x5Cia5uPW8MPw5cO3KK3cMn+rJgYXQHZPuo+vXeDXCOpEjfgqhVq9EOGJXsEl63MvwYW0a66kaTl7NMh6cWH+rS67+oaOj1VLPxikZp2pL6VRquPs9XanEk3cyiNBFuUmM/zf8wM7yYL4zZdPXbsQc/O0JZO4H4ra9EO6/+z+PwsXG7WGcEbBTsDf6WtiAPZboIOj8UB1G/WuV8DrNAATmR7g1ED4ON8uC35iX+Hwx+ahUwH24OSXETUswo3a8/IBIsACwtVjXNweDKh6YZFzdd8grcQRrIzzjsFanJMb3C0r9uUAG29sUWWrwvhE0Ftd8flaW4GwPCPnKmcIoBSt6aqN3lWaZJWMHuFbeELzcoEzxvjEhg+I0ed8vIB7pxe9HsyT3pkZec3OIcZtyqCG5+UFMu6TZlMqFpeRKSxfK74rgPL2lToT84X9fVjg=
+  app: polar-brook-50339
+  on:
+    repo: StephanieLoupee/marvel-react
